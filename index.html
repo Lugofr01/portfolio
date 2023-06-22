@@ -428,6 +428,40 @@
                     
                      <br />
 
+                     <h5> Daytime Protocol </h5>
+                     <p class="lead"> 
+                        During the Fall of 2022, I worked on a project to implement client-server communication using the Daytime protocol (RFC 867). This protocol enables clients to retrieve the current date and time from a server.
+
+                        For this project, I developed both a TCP and UDP server that could respond to client requests with the current date and time for a specified location. To achieve this, I utilized the 'net' module for the TCP server and the 'dgram' module for the UDP server.
+                        These modules allowed me to handle client connections and messages efficiently. I utilized the 'getTime' function that I had defined to provide the necessary information to clients.
+
+                        The implementation served as a concise demonstration of utilizing Node.js to develop server functionality and communicate with clients using different protocols. This project provided me with valuable experience in working with server-side development and utilizing various protocols.
+
+                        On the client-side, I implemented the Daytime protocol using Python. I developed a script that allows me to connect to a server and retrieve the current date and time. The script supports both TCP and UDP protocols, giving me the flexibility to choose the communication method with the server.
+
+                        For the TCP implementation, I used the socket module and established a TCP connection with the specified server and port. After connecting, I received the server's response containing the current date and time, which I then printed to the console.
+
+                        Similarly, in the UDP implementation, I used the socket module with the SOCK_DGRAM parameter, indicating a UDP socket. I sent a UDP message to the server, received the response, and printed the obtained date and time to the console.
+
+                        To enhance the versatility of the client script, I incorporated command-line argument parsing using the argparse module. This allowed me to specify the desired protocol (TCP or UDP) when running the script.
+
+                        The project showcased my skills in server-side development using Node.js and client-side implementation using Python, with an emphasis on working with TCP and UDP protocols.
+
+                        <br/>
+
+
+                        <br />
+
+                     <a href="https://github.com/Lugofr01/Computer-Networks/blob/main/src/projects/daytime" target="_blank">Click here!</a>
+                            </p>
+
+                            <br/>
+                        
+
+                     </p>
+                     
+                      <br />
+
                      <h5>Gym Check-in App </h5>
                     <p class="lead">  I undertook the development of a comprehensive full-stack project, a Gym Check-In Application. To ensure efficient data management, I designed a robust database system utilizing SQLite3, allowing for secure storage and easy access to user data by the administrator.
 
@@ -449,6 +483,32 @@
                     
                      <br />
                             
+
+                     <h5> Custom Virtual Private Network </h5>
+                     <p class="lead"> 
+                        During the spring of 2022, I undertook a Security Project focused on developing a Custom Virtual Private Network (VPN) application. Using Python, I designed a secure message exchange system that allowed users to transmit data securely over a shared network, simulating the experience of being connected through a private network. To ensure secure communication, I implemented a cryptosystem negotiation exchange, enabling the client and server to establish uniformity on preferred ciphers. Additionally, 
+                        I architected a Diffie-Hellman Key Exchange protocol to establish authenticity between the client and server pair. 
+                        As part of the project, I engineered a robust data transfer mechanism that involved the server validating the HMAC hash and displaying the received data on the console. 
+                        This comprehensive solution provided enhanced security and confidentiality for data transmission within the network.
+
+                        <br/>
+                        
+
+                     </p>
+                     
+                      <br />
+
+
+
+
+
+
+
+
+
+
+
+
                      <h5> VM 252 Debugger </h5>
                      <p class="lead"> 
                         This Java application served as a debugging tool that enabled the users to detect errors in assembly language and also perform assembly language operations as directed by the instructions in the program. To design an interactive GUI framework, the use of Java Swing was utilized throughout the whole project. Furthermore, the project was organized using a Model-View-Controller framework which enabled a swift configuration of the specifications of the program. 
